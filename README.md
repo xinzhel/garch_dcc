@@ -99,7 +99,7 @@ Since I did not find a well-established open-source implementation, I code compo
 $$Q_t=\bar{R}+\alpha\left(\nu_{t-1} \nu_{t-1}^{\prime}-\bar{R}\right)+\beta\left(Q_{t-1}-\bar{R}\right)$$
 * $R_t$ (Source from [Formula 4.1 in the book](https://bookdown.org/jarneric/financial_econometrics/4.1-dynamic-conditional-correlation.html?utm_source=chatgpt.com)): 
 
-$$R_t=\operatorname{diag}\left(Q_t\right)^{-1 / 2} Q_t \operatorname{diag}\left(Q_t\right)^{-1 / 2}$$
+$$R_t=\text{diag}\left(Q_t\right)^{-1 / 2} Q_t \text{diag}\left(Q_t\right)^{-1 / 2}$$
 
 * Pairwise Gaussian log-likelihood with $z=\left(e_i, e_j\right)^{\top}$ 
 
